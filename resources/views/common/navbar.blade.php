@@ -5,7 +5,7 @@
 
     <div class="vertical-line navbar-vertical-line"></div>
 
-    <ul class="navigation">
+    <ul class="navigation what">
         <li><strong>A1</strong></li>
         <li><strong>A2</strong></li>
         <li><strong>A3</strong></li>
