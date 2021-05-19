@@ -1,4 +1,126 @@
-@media screen and (min-width: 320px) and (max-width: 374px){
+@media screen and (min-width: 280px) and (max-width: 319px){
+    body {
+        background-image: url("../img/GalaxyFold.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 100px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 20px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -600px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+    }
+
+    .bottom-social {
+        margin-top: 10px;
+        width: 45px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 6.5%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .bottom-footer {
+        margin-left: 6.5%;
+    }
+
+    .top-footer {
+        margin-left: 6.5%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 359px) and (min-height: 568px){
     body {
         background-image: url("../img/iPhone5.png");
         background-attachment: fixed;
@@ -84,13 +206,21 @@
 
     .bottom-socials {
         width: 75%;
-        margin-left: 7.5%;
+        margin-left: 12.5%;
     }
 
     .bottom-socials li{
         list-style-type: none;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 45px;
@@ -103,7 +233,233 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 413px){
+@media screen and (min-width: 320px) and (max-width: 359px) and (min-height: 480px) and (max-height: 567px){
+    body {
+        background-image: url("../img/iPhone4.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 70px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 30px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 15px;
+        margin-top: 25px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -650px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 45px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px){
+    body {
+        background-image: url("../img/GalaxyS5.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 100px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 32px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 15px;
+        margin-top: 37.5px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -510px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 14%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 45px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 410px){
 
     body {
         background-image: url("../img/iPhone678.png");
@@ -199,6 +555,14 @@
         margin-left: 12.5%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 45px;
@@ -211,7 +575,7 @@
     }
 }
 
-@media screen and (min-width: 414px) and (max-width: 440px){
+@media screen and (min-width: 411px) and (max-width: 460px){
 
     body {
         background-image: url("../img/iPhone678Plus.png");
@@ -243,7 +607,7 @@
 
     .footer { 
         position: absolute; 
-        left: 0 ; right: 0; bottom: -325px; 
+        left: 0 ; right: 0; bottom: -350px; 
         height:[footer-height];
         float: left;
     }
@@ -307,6 +671,14 @@
         margin-left: 12.5%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 45px;
@@ -415,6 +787,14 @@
         margin-left: 12.5%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 45px;
@@ -427,7 +807,261 @@
     }
 }
 
-@media screen and (min-width: 599px) and (max-width: 625px){
+@media screen and (min-width: 461px) and (max-width: 539px){
+
+    body {
+        background-image: url("../img/NokiaN9.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 140px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 50px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -500px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 12.5%;
+    }
+
+    .top-footer {
+        margin-left: 12.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 55px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (min-width: 540px) and (max-width: 598px){
+
+    body {
+        background-image: url("../img/SurfaceDuo.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 110px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 50px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 20px;
+        margin-top: 35px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -550px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 12.5%;
+    }
+
+    .top-footer {
+        margin-left: 12.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 20px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 55px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 12.5%;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 625px) and (min-height: 800px) and (max-height: 959px){
 
     body {
         background-image: url("../img/Smalltablet.png");
@@ -528,6 +1162,14 @@
         margin-left: 12.5%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 85px;
@@ -542,7 +1184,261 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 800px){
+@media screen and (min-width: 599px) and (max-width: 767px) and (min-height: 960px) and (max-height: 1023px){
+
+    body {
+        background-image: url("../img/Nexus7.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 160px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 60px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 25px;
+        margin-top: 60px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -250px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 12.5%;
+    }
+
+    .top-footer {
+        margin-left: 12.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 25px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        font-size: 20px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        margin-bottom: 25px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 7.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 85px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 12.5%;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 599px) and (max-width: 625px) and (min-height: 1024px){
+
+    body {
+        background-image: url("../img/BlackberryPlaybook.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 175px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 60px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 25px;
+        margin-top: 60px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -450px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 12.5%;
+    }
+
+    .top-footer {
+        margin-left: 12.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 35px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 7.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 85px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 12.5%;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 799px) and (min-height: 1024px){
 
     body {
         background-image: url("../img/iPad.png");
@@ -574,13 +1470,14 @@
 
     .footer { 
         position: absolute; 
-        left: 0 ; right: 0; bottom: 0px; 
+        left: 0 ; right: 0; bottom: -150px; 
         height:[footer-height];
         float: left;
     }
 
     .p-footer {
         text-align: center;
+        font-size: 25px;
     }
 
     .black-line {
@@ -614,6 +1511,9 @@
     .p-homepage {
         text-align: center;
         float: left;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 20px;
     }
 
     .navigation-div {
@@ -622,10 +1522,12 @@
 
     .test-regels {
         float: left; 
+        margin-bottom: 20px;
     }
 
     .test-regels li {
         margin-top: 10px;
+        font-size: 20px;
     }
 
     .p-first {
@@ -643,6 +1545,142 @@
         margin-left: 14%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
+    .bottom-social {
+        margin-top: 10px;
+        width: 110px;
+        float: left;
+    }
+
+    .socials-bottom-line {
+        float: left;
+        margin-top: 25px;
+        margin-left: 14%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1023px) and (max-height: 1280px) and (min-height: 1180px){
+    body {
+        background-image: url("../img/KindleFireHDX.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 225px;
+        float: left;
+    }
+
+    .back-to-lamaravilla {
+        display: none;
+    }
+
+    .navigation {
+        list-style-type: none;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 85px;
+        font-style: bold;
+        font-family:'Courier New', Courier, monospace;
+        margin-left: 30px;
+        margin-top: 80px;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -275px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 14%;
+    }
+
+    .top-footer {
+        margin-left: 14%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 30px;
+        width: 80%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        font-size: 25px;
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        width: 75%;
+        margin-left: 7.5%;
+    }
+
+    .bottom-socials li{
+        list-style-type: none;
+        width: 75%;
+        margin-left: 14%;
+    }
+
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 110px;
@@ -657,7 +1695,7 @@
     }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) and (max-width: 1439px){
 
     body {
         background-image: url("../img/iPad Pro.png");
@@ -689,7 +1727,7 @@
 
     .footer { 
         position: absolute; 
-        left: 0 ; right: 0; bottom: 0px; 
+        left: 0 ; right: 0; bottom: -900px; 
         height:[footer-height];
         float: left;
     }
@@ -720,7 +1758,7 @@
     .h1-align-welcome {
         float: left;
         margin-top: 25px;
-        font-size: 20px;
+        font-size: 50px;
         width: 80%;
         margin-left: 10%;
         text-align: center
@@ -731,6 +1769,7 @@
         float: left;
         width: 80%;
         margin-left: 10%;
+        font-size: 35px;
     }
 
     .navigation-div {
@@ -743,6 +1782,7 @@
 
     .test-regels li {
         margin-top: 10px;
+        font-size: 35px;
     }
 
     .p-first {
@@ -760,6 +1800,14 @@
         margin-left: 12.5%;
     }
 
+    .socials-vertical-line {
+        display: none;
+    }
+
+    .socials {
+        display: none;
+    }
+    
     .bottom-social {
         margin-top: 10px;
         width: 175px;
@@ -768,8 +1816,1125 @@
 
     .socials-bottom-line {
         float: left;
-        margin-top: 250px;
+        margin-top: 50px;
         margin-left: 16.5%;
         margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1400px) and (min-height: 768px) and (max-height: 1279px){
+    body {
+        background-image: url("../img/Lamaravilla.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 165px;
+        float: left;
+        position: fixed;
+        margin-top: -85px;
+        margin-left: -85px;
+    }
+
+    .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 32.5%;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 105px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 125px;
+        margin-top: -75px;
+    }
+
+    .navigation-div {
+        background-color: #c60b1e;
+        top: 0; left: 0; right: 0;
+        position: fixed;
+        float: left;
+        padding: 110px;
+    }
+
+    .navbar-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width: 1px;   
+        float: left;
+        margin-left: 32.5%;
+        margin-top: -70px;
+        position: fixed;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -400px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 16.5%;
+    }
+
+    .top-footer {
+        margin-left: 16.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 25px;
+        font-size: 60px;
+        width: 60%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 60%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        display: none;
+    }
+
+    .socials-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 235px;
+        padding-bottom: 235px;
+        float: left;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 15.75%;
+    }
+
+    .socials {
+        float: left;
+        position: fixed;
+        list-style-type: none;
+        margin-left: 85%;
+        margin-top: 15.25%;
+    }
+
+    .socials-img {
+        width: 120px;
+        margin-top: 25%;
+    }
+    
+    .bottom-social {
+        display: none;
+    }
+
+    .socials-bottom-line {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-height: 810px) and (max-width: 1919px){
+    body {
+        background-image: url("../img/LaptopFullHD.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 165px;
+        float: left;
+        position: fixed;
+        margin-top: -85px;
+        margin-left: -85px;
+    }
+
+    .question-border {
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 10%;
+        border-color: black;
+        margin-bottom: 5%;
+    }
+
+    .submit {
+        border-style: solid;
+        border-radius: 20px;
+        width: 20%;  
+        font-size: 250%;
+        border-color: black;
+        background-color: #c60b1e;
+        margin-bottom: 5%;
+        margin-left: 75%;
+    }
+
+
+    .question {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 2.5%;
+    }
+
+    .result {
+        width: 80%;
+        font-size: 170%;
+        margin-left: 10%;
+        font-family: arial;
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-left: 5%;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      /* Hide the browser's default radio button */
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      /* Create a custom radio button */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+      
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      
+      /* When the radio button is checked, add a blue background */
+      .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+      
+      /* Create the indicator (the dot/circle - hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      /* Show the indicator (dot/circle) when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the indicator (dot/circle) */
+      .container .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+      }
+
+      .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 35%;
+        }
+
+      .navigation a {
+        color: orangered;
+        }
+
+      .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .back-to-lamaravilla a {
+        text-decoration: none;
+        color: rgb(255, 117, 67);
+    }
+
+    .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 35%;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 75px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 125px;
+        margin-top: -50px;
+    }
+
+    .navigation-div {
+        background-color: #c60b1e;
+        top: 0; left: 0; right: 0;
+        position: fixed;
+        float: left;
+        padding: 110px;
+    }
+
+    .navbar-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width: 1px;   
+        float: left;
+        margin-left: 35%;
+        margin-top: -70px;
+        position: fixed;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -100px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .spacer {
+        margin-bottom: 15%;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 16.5%;
+    }
+
+    .top-footer {
+        margin-left: 16.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 225px;
+        font-size: 60px;
+        width: 60%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 60%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        display: none;
+    }
+
+    .socials-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 175px;
+        padding-bottom: 175px;
+        float: left;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 16.25%;
+    }
+
+    .socials {
+        float: left;
+        position: fixed;
+        list-style-type: none;
+        margin-left: 85%;
+        margin-top: 15.25%;
+    }
+
+    .socials-img {
+        width: 80px;
+        margin-top: 45%;
+    }
+    
+    .bottom-social {
+        display: none;
+    }
+
+    .socials-bottom-line {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) and (max-height: 800px){
+    body {
+        background-image: url("../img/LaptopFullHDNonFullscreen.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .question-border {
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 10%;
+        border-color: black;
+        margin-bottom: 5%;
+    }
+
+    .submit {
+        border-style: solid;
+        border-radius: 20px;
+        width: 20%;  
+        font-size: 250%;
+        border-color: black;
+        background-color: #c60b1e;
+        margin-bottom: 5%;
+        margin-left: 75%;
+    }
+
+    .question {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-left: 2.5%;
+    }
+
+    .result {
+        width: 80%;
+        font-size: 170%;
+        margin-left: 10%;
+        font-family: arial;
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-left: 5%;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      
+      /* Hide the browser's default radio button */
+      .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      
+      /* Create a custom radio button */
+      .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+        border-radius: 50%;
+      }
+      
+      /* On mouse-over, add a grey background color */
+      .container:hover input ~ .checkmark {
+        background-color: #ccc;
+      }
+      
+      /* When the radio button is checked, add a blue background */
+      .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+      }
+      
+      /* Create the indicator (the dot/circle - hidden when not checked) */
+      .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+      }
+      
+      /* Show the indicator (dot/circle) when checked */
+      .container input:checked ~ .checkmark:after {
+        display: block;
+      }
+      
+      /* Style the indicator (dot/circle) */
+      .container .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: white;
+      }
+
+    .zon {
+        width: 165px;
+        float: left;
+        position: fixed;
+        margin-top: -85px;
+        margin-left: -85px;
+    }
+
+    .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .back-to-lamaravilla a {
+        text-decoration: none;
+        color: rgb(255, 117, 67);
+    }
+
+    .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 35%;
+    }
+
+    .navigation a {
+        color: orangered;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 75px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 125px;
+        margin-top: -50px;
+    }
+
+    .navigation-div {
+        background-color: #c60b1e;
+        top: 0; left: 0; right: 0;
+        position: fixed;
+        float: left;
+        padding: 110px;
+    }
+
+    .navbar-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width: 1px;   
+        float: left;
+        margin-left: 35%;
+        margin-top: -70px;
+        position: fixed;
+    }
+
+    .spacer {
+        margin-bottom: 15%;
+    }
+
+    .footer {  
+        left: 0 ; right: 0; bottom: 0px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 16.5%;
+    }
+
+    .top-footer {
+        margin-left: 16.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 225px;
+        font-size: 60px;
+        width: 60%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 60%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        display: none;
+    }
+
+    .socials-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 135px;
+        padding-bottom: 135px;
+        float: left;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 16.5%;
+    }
+
+    .socials {
+        float: left;
+        position: fixed;
+        list-style-type: none;
+        margin-left: 85%;
+        margin-top: 15.25%;
+    }
+
+    .socials-img {
+        width: 62px;
+        margin-top: 45%;
+    }
+    
+    .bottom-social {
+        display: none;
+    }
+
+    .socials-bottom-line {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1920px){
+    .questions {
+        background-color: rgba(255, 255, 255, 0.568);
+        border-style: hidden;
+        border-radius: 25px;
+        width: 80%;
+        margin-left: 10%;
+        list-style-type: none;
+        color: black;
+        list-style-type: none;
+        font-size: 200%;
+    }
+
+    .question-answer {
+        list-style-type: none;
+        font-family: arial;
+    }
+
+    .question {
+    
+    }
+
+    .secondpart { 
+    }
+
+    .a {
+        float:left;
+    }
+
+    .b {
+        margin-top: 90px;
+    }
+
+    .c {
+        margin-top: 25px;
+    }
+
+    .spacer-questions {
+        margin-bottom: 25px;
+    }
+
+    .spacer {
+        margin-bottom: 12.5%;
+    }
+
+    body {
+        background-image: url("../img/FullHDNonF11.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 165px;
+        float: left;
+        position: fixed;
+        margin-top: -85px;
+        margin-left: -85px;
+    }
+
+    .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .back-to-lamaravilla a {
+        color: rgb(255, 57, 57);
+    }
+
+    .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 32.5%;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 105px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 125px;
+        margin-top: -75px;
+    }
+
+    .navigation-div {
+        background-color: #c60b1e;
+        top: 0; left: 0; right: 0;
+        position: fixed;
+        float: left;
+        padding: 99px;
+    }
+
+    .navbar-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width: 1px;   
+        float: left;
+        margin-left: 32.5%;
+        margin-top: -70px;
+        position: fixed;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: 0px; 
+        height: 50px;
+        float: left;
+    }
+
+    .wrapper {
+        min-height: 100%;
+
+        /* Equal to height of footer */
+        /* But also accounting for potential margin-bottom of last child */
+    }    
+    
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 16.5%;
+    }
+
+    .top-footer {
+        margin-left: 16.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 225px;
+        font-size: 60px;
+        width: 60%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 60%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        display: none;
+    }
+
+    .socials-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 235px;
+        padding-bottom: 235px;
+        float: left;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 13%;
+    }
+
+    .socials {
+        float: left;
+        position: fixed;
+        list-style-type: none;
+        margin-left: 85%;
+        margin-top: 12.5%;
+    }
+
+    .socials-img {
+        width: 120px;
+        margin-top: 25%;
+    }
+    
+    .bottom-social {
+        display: none;
+    }
+
+    .socials-bottom-line {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1920px) and (min-height: 1080px){
+    body {
+        background-image: url("../img/Lamaravilla.png");
+        background-attachment: fixed;
+        background-position-x: 0;
+    }
+
+    .zon {
+        width: 165px;
+        float: left;
+        position: fixed;
+        margin-top: -85px;
+        margin-left: -85px;
+    }
+
+    .back-to-lamaravilla {
+        float: left;
+        font-size: 260%;
+        margin-top: -20px;
+        margin-left: 100px;
+        position: fixed;
+    }
+
+    .navigation {
+        list-style-type: none;
+        float: left;
+        position: fixed;
+        margin-left: 32.5%;
+    }
+
+    .navigation li {
+        float: left;
+        font-size: 105px;
+        font-style: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 125px;
+        margin-top: -75px;
+    }
+
+    .navigation-div {
+        background-color: #c60b1e;
+        top: 0; left: 0; right: 0;
+        position: fixed;
+        float: left;
+        padding: 110px;
+    }
+
+    .navbar-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        width: 1px;   
+        float: left;
+        margin-left: 32.5%;
+        margin-top: -70px;
+        position: fixed;
+    }
+
+    .footer { 
+        position: absolute; 
+        left: 0 ; right: 0; bottom: -400px; 
+        height:[footer-height];
+        float: left;
+    }
+
+    .p-footer {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .black-line {
+        padding: 1px;
+        padding-left: 35px;
+        padding-right: 35px;
+        width: 60%;
+        margin-left: 10%;
+        background-color: black;
+        align-content: center;
+    }
+
+    .bottom-footer {
+        margin-bottom: 25px;
+        margin-left: 16.5%;
+    }
+
+    .top-footer {
+        margin-left: 16.5%;
+    }
+
+    .h1-align-welcome {
+        float: left;
+        margin-top: 225px;
+        font-size: 60px;
+        width: 60%;
+        margin-left: 10%;
+        text-align: center
+    }
+
+    .p-homepage {
+        text-align: center;
+        float: left;
+        width: 60%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+
+    .navigation-div {
+        z-index: 1;
+    }
+
+    .test-regels {
+        float: left; 
+        width: 60%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+    .test-regels li {
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .p-first {
+        margin-top: 10px;
+    }
+
+    .bottom-socials {
+        display: none;
+    }
+
+    .socials-vertical-line {
+        background-color: black;
+        padding: 1.5px;
+        padding-top: 235px;
+        padding-bottom: 235px;
+        float: left;
+        position: fixed;
+        margin-left: 80%;
+        margin-top: 15.75%;
+    }
+
+    .socials {
+        float: left;
+        position: fixed;
+        list-style-type: none;
+        margin-left: 85%;
+        margin-top: 15.25%;
+    }
+
+    .socials-img {
+        width: 120px;
+        margin-top: 25%;
+    }
+    
+    .bottom-social {
+        display: none;
+    }
+
+    .socials-bottom-line {
+        display: none;
     }
 }
