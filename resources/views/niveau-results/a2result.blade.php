@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="spacer"></div>
-<?php $score = 25; ?>
+<?php $score = 0; ?>
 @for ($i = 0; $i < 30; $i++)
    @if ($result[$i] === $correctanswer[$i])
        <?php $score += 1 ?>

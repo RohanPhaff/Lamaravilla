@@ -6,6 +6,8 @@
     <form method="POST" action="/a2">
         @csrf
 
+        <div class="question-spacer"></div>
+
         @foreach($a2 as $a2s)
 
         <div class="question-border">

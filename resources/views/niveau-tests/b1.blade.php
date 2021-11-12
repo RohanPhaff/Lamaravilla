@@ -6,6 +6,8 @@
     <form method="POST" action="/b1">
         @csrf
 
+        <div class="question-spacer"></div>
+
         <?php $vraag = 0 ?>
         @foreach($b1 as $b1s)
 

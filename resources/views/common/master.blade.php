@@ -15,6 +15,5 @@
 @yield('content')
 
 @include('common.footer')  
-
 </body>
 </html>

@@ -24,7 +24,7 @@
     <li>Als je twijfelt over een antwoord vul je de vraag niet in, gokken geeft geen goed beeld van je kennis</li>
 </ul>
 
-<p class="p-homepage" style="margin-top: -0.5%;">Zoek een plekje waar je je goed kunt concentreren, pak wat lekkers om te drinken erbij en… aan de slag!</p>
+<p class="p-homepage" style="margin-top: -0.5%; margin-bottom: 5vh;">Zoek een plekje waar je je goed kunt concentreren, pak wat lekkers om te drinken erbij en… aan de slag!</p>
 
 <div class="black-line socials-bottom-line"></div>
 
