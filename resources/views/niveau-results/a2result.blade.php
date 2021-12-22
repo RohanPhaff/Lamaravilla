@@ -25,9 +25,9 @@
 @if ($score >= 25)
     <p class="result" style="margin-top: 5%;">Je hebt meer dan 25 vragen goed beantwoord en daarmee het niveau A2 al aardig onder de knie. Om
         verder te gaan met het leren van Spaans zijn er voor jou twee opties:</p>
-    <p class="result">A. Je kunt deelnemen aan de conversatie groep. Tijdens dit jaar vol conversaties slijt
+    <p class="result">A. Je kunt deelnemen aan de conversatie groep. In deze groep vol conversaties slijt
         de kennis van het beginnersniveau in en leer je het geleerde vlotter toe te passen. Meer
-        informatie over dit conversatie jaar vind je hier: <a href="https://la-maravilla.nl/conversatie">Conversatie Jaar</a></p>
+        informatie over deze groep vind je hier: <a href="https://la-maravilla.nl/conversatie">Conversatie Jaar</a></p>
     <p class="result">B. Probeer de niveautest van niveau B1 om te zien welke cursus bij jou aansluit. Om verder
         te gaan met de volgende niveautest kan je hier klikken: <a href="b1/create">Niveautest B1</a></p>
 @endif
