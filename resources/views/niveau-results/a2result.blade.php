@@ -27,8 +27,7 @@
         verder te gaan met het leren van Spaans zijn er voor jou twee opties:</p>
     <p class="result">A. Je kunt deelnemen aan het praktijkjaar A1/A2. Tijdens dit jaar vol praktische lessen slijt
         de kennis van het beginnersniveau in en leer je het geleerde vlotter toe te passen. Meer
-        informatie over dit praktijk jaar vind je hier: <a href="https://la-
-        maravilla.nl/beginners/praktijkjaar-a1a2">Praktijkjaar A1/A2</a></p>
+        informatie over dit praktijk jaar vind je hier: <a href="https://la-maravilla.nl/conversatie">Praktijkjaar A1/A2</a></p>
     <p class="result">B. Probeer de niveautest van niveau B1 om te zien welke cursus bij jou aansluit. Om verder
         te gaan met de volgende niveautest kan je hier klikken: <a href="b1/create">Niveautest B1</a></p>
 @endif
