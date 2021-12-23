@@ -4,9 +4,8 @@
 <h1 class="h1-align-welcome">Welkom bij de taaltoets van La Maravilla!</h1>
 
 <ul class="socials">
-    <li><img src="img/facebook-logo.png" alt="De foto kon niet geladen worden" class="socials-img"></li>
-    <li><img src="img/instagram-logo.jpg" alt="De foto kon niet geladen worden" class="socials-img"></li>
-    <li><img src="img/twitter-logo.png" alt="De foto kon niet geladen worden" class="socials-img"></li>
+    <li><a href="https://www.facebook.com/LaMaravillaCursusSpaans"><img src="img/facebook-logo.png" alt="De foto kon niet geladen worden" class="socials-img"></a></li>
+    <li><a href="https://www.instagram.com/lamaravillaspaans/"><img src="img/instagram-logo.jpg" alt="De foto kon niet geladen worden" class="socials-img"></a></li>
 </ul>
 
 <div class="vertical-line-large socials-vertical-line"></div>
